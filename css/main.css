@@ -220,7 +220,7 @@ pre {
   font-family: monospace; }
 
 body {
-  color: #78888b;
+  color: #bdc5c6;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5; }
@@ -1793,7 +1793,7 @@ body.has-navbar-fixed-bottom {
 
 .navbar-item,
 .navbar-link {
-  color: #4a4a4a;
+  color: whitesmoke;
   display: block;
   line-height: 1.5;
   padding: 0.5rem 0.75rem;
@@ -1810,7 +1810,7 @@ a.navbar-item,
   .navbar-link:hover,
   .navbar-link.is-active {
     background-color: #111111;
-    color: #f4f1bb; }
+    color: #ea5543; }
 
 .navbar-item {
   display: block;
@@ -3337,7 +3337,7 @@ a.navbar-item,
     padding-top: 1.5rem; }
   @media screen and (min-width: 769px), print {
     .hero.is-medium .hero-body {
-      padding-bottom: 9rem;
+      padding-bottom: 2rem; 
       padding-top: 9rem; } }
   @media screen and (min-width: 769px), print {
     .hero.is-large .hero-body {
@@ -7087,8 +7087,8 @@ a {
   a:active {
     color: #ed6a5a; }
 
-h1, h2, .title, .subtitle {
-  color: #75b8c8; }
+h1, h2, .title, .subtitle, .modal-card-title {
+  color: #5DADE2; }
 
 .title {
   font-weight: 400; }
@@ -7219,7 +7219,7 @@ hr {
 
 .card-content {
   background-color: #111111;
-  font-size: 1.5rem; }
+  font-size: 1.3rem; }
 
 .has-content-centered {
   justify-content: center; }
@@ -7324,7 +7324,8 @@ hr {
   max-width: 100%; }
 
 .modal-card-title {
-  color: #ed6a5a; }
+  font-size: 2rem;}
+  /* color: #ed6a5a; } */
 
 .modal-card-body {
   background-color: #111111; }
